@@ -1,6 +1,7 @@
 🛰 🚀 🛸 🪐SpaceWonders Space Travel Agency 🛰 🚀 🛸 🪐
 
-Welcome to SpaceWonders Space Travel Agency! This repository contains the source code and information about our website, where users can explore and book extraordinary space travel experiences. Below, you will find a brief overview of the sections available on our website:
+Welcome to SpaceWonders Space Travel Agency! This repository contains the source code and information about our website, where users can explore and book extraordinary space travel experiences. 
+Below, you will find a brief overview of the sections available on our website:
 
 🛰 🚀 🛸 🪐Sections🛰 🚀 🛸 🪐
 1. Home Section: The home page of our website, where users can get an overview of our services and mission.
