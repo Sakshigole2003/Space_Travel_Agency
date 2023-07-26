@@ -1,0 +1,183 @@
+/* CSS for the space-themed website */
+/* ... (styles for header, hero section, topics list, etc.) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c4b1f8;
+
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  header {
+  
+    color: #fff;
+    padding: 0px 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    background-image: url('header\ misiion.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .cta-btn {
+    background-color: #000000;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #0a0905;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+    padding: 0;
+  }
+  /* Add these styles for animations */
+
+/* Example animation for the hero section */
+@keyframes fadeInScaleUp {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .hero {
+    background-image: url('bg\ misiion.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    /* Apply the animation to the hero section */
+    animation: fadeInScaleUp 1s ease-out;
+  }
+  
+  /* Example animation for the CTA button */
+  .cta-btn {
+    background-color: #d9c1ec;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  
+    /* Add a smooth transition for the button */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-btn:hover {
+    background-color: #a781e4;
+    transform: scale(1.1); /* Add a slight scale effect on hover */
+  }
+  
+  /* Example animation for the topic list items */
+  .topic-list li {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  /* Apply the animation to each topic list item */
+  .topic-list li:nth-child(1) {
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+  }
+  
+  .topic-list li:nth-child(2) {
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+  }
+  
+  .topic-list li:nth-child(3) {
+    animation: fadeInUp 0.8s ease-out 0.6s forwards;
+  }
+  
+  .topic-list li:nth-child(4) {
+    animation: fadeInUp 0.8s ease-out 0.8s forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
