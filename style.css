@@ -11,7 +11,7 @@
 }
 
 :root{
-    --color-text: #cdc6c3;
+    --color-text: #7e726d;
     --hover-color: #70efbf;
     --neon-box-shadow: 0 0 .5rem #70efbf;
     --index: calc(1vw + 1vh);
@@ -131,7 +131,7 @@ header .navlist{
     transition: all .3s ease;
     white-space: nowrap;
     display: inline-block;
-    color: #fffbfb;
+    color: #e6aaaa;
 }
 
 .marsbtn:hover{
@@ -230,7 +230,7 @@ img.moon-light{
     width: 200px;
     padding: 2rem 1.5rem 2rem;
     text-align: center;
-    background-image: url(images/cardBg.jpg);
+    background-image: url(images/Login\ form\ bck.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -363,6 +363,16 @@ img.moon-light{
        transform: translateY(0); 
     }
 }
+
+@keyframes circle-animate{
+    100%{
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+
+
 
 @keyframes circle-animate{
     100%{
