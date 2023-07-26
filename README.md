@@ -1,8 +1,8 @@
-SpaceWonders Space Travel Agency 🛰 🚀 🛸 🪐
+🛰 🚀 🛸 🪐SpaceWonders Space Travel Agency 🛰 🚀 🛸 🪐
 
 Welcome to SpaceWonders Space Travel Agency! This repository contains the source code and information about our website, where users can explore and book extraordinary space travel experiences. Below, you will find a brief overview of the sections available on our website:
 
-Sections
+🛰 🚀 🛸 🪐Sections🛰 🚀 🛸 🪐
 1. Home Section: The home page of our website, where users can get an overview of our services and mission.
 Users can find an introduction to SpaceWonders, along with visually captivating images of space.
 
@@ -20,7 +20,7 @@ Their first-hand accounts and awe-inspiring moments will inspire potential trave
 Users can access personalized features like booking flights, saving preferences, and more.
 How to Run the Website Locally
 
-*~* To run this website locally on your machine, follow these steps:
+🛰 🚀 🛸 🪐 To run this website locally on your machine, follow these steps🛰 🚀 🛸 🪐
 
 1) Clone the repository to your local system.
 2) Ensure you have a compatible web server environment, such as Apache or Nginx, with PHP support.
@@ -37,7 +37,8 @@ The SpaceWonders Space Travel Agency website is built using the following techno
 * Additional Libraries: Bootstrap for responsive design and jQuery for interactivity.
 
 
-Contributors:
+🛰 🚀 🛸 🪐Contributors🛰 🚀 🛸 🪐
+
 This project is maintained by the SpaceWonders development team. We welcome contributions from the community.
 If you have any feedback, bug reports, or feature requests, please feel free to raise an issue in this repository. We will be happy to address it.
 Happy space exploration!🛰 🚀 🛸 🪐
